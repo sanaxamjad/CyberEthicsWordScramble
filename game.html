@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Word Scramble Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="js/words.js" defer></script>
+  <script src="js/script.js" defer></script>
+  <style>
+    .question-count {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .score {
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      margin: 20px 0;
+      position: fixed;
+      bottom: 80;
+      left: 49.9%;
+      transform: translateX(-50%);
+    }
+
+    .score span {
+      color: #000000.;
+    }
+
+    .stopping-page,
+    .results-page {
+      display: none;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .results-page h1 {
+      margin-bottom: 20px;
+    }
+
+    .results-page p {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content">
+    <p class="score">Score: <span>0</span></p>
+    <div class="details">
+      <p class="hint">Hint: <span></span></p>
+      <p class="question-count">Question: <span class="current-question">1</span>/<span
+          class="total-questions">20</span></p>
+      <p class="word"></p>
+      <p class="time">Time Left: <span><b>30</b>s</span></p>
+
+    </div>
+    <input type="text" spellcheck="false" placeholder="Enter a valid word" />
+    <div class="buttons">
+      <button class="refresh-word">Refresh Word</button>
+      <button class="check-word">Check Word</button>
+    </div>
+  </div>
+</body>
+
+</html>

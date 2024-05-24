@@ -1,6 +1,3 @@
-# CyberEthicsWordScramble 🧑‍💻🔒
-
-## Overview
 CyberEthicsWordScramble is an engaging web-based game designed to test players' knowledge of cybersecurity ethics principles. Players are presented with scrambled words related to various ethical considerations in the realm of technology and cybersecurity. Their task is to unscramble the words within a time limit, earning points for each correct answer.
 
 ## Gameplay
